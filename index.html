@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Delivery Truck</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      canvas{
+          display: block;
+      }
+
+      #name{
+        position: absolute;
+        display: none;
+        transform: translate(-50%, 0);
+      }
+      #email{
+        position: absolute;
+        display: none;
+        transform: translate(-50%, 0);
+      }
+
+      #send{
+        position: absolute;
+        display: none;
+        transform: translate(-50%, 0);
+      }
+}
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="1300" height="600"></canvas>
+    <form>
+      <input type="text" placeholder="Name" id="name">
+      <input type="text" placeholder="E-mail" id="email">
+      <input type="submit" placeholder="E-mail" id="send">
+    </form>
+
+
+    <script src="./js/preloader.js"></script>
+    <script src="./js/obstacle.js"></script>
+    <script src="./js/house.js"></script>
+    <script src="./js/package.js"></script>
+    <script src="./js/truck.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
